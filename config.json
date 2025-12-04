@@ -1,0 +1,19 @@
+{
+  "exchanges": {},
+  "trading": {
+    "simulator": true,
+    "starting-portfolio": {
+      "USDT": 10000
+    }
+  },
+  "backtesting": {
+    "enabled": true,
+    "data-format": "csv",
+    "files": ["backtesting/data/*.csv"]
+  },
+  "trader": {
+    "simulated": true
+  },
+  "force-simulated-mode": true,
+  "log-level": "INFO"
+}
